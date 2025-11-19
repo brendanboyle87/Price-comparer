@@ -1,0 +1,22 @@
+defaults:
+  target_store_id: "1234"
+  target_zip: "12345"
+  giant_store_id: "GIANT-001"
+products:
+  - name: "Whole Milk 1 gal"
+    target:
+      tcin: "1111111"
+      url: "https://www.target.com/p/-/A-1111111"
+    giant:
+      slug: "whole-milk-1-gal"
+      url: "https://giantfood.com/grocery/whole-milk-1-gal"
+  - name: "Large Eggs 12ct"
+    target:
+      tcin: "2222222"
+    giant:
+      slug: "large-eggs-12ct"
+  - name: "Boneless skinless chicken breast 1 lb"
+    target:
+      tcin: "3333333"
+    giant:
+      slug: "boneless-chicken-breast-1lb"

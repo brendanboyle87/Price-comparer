@@ -1,0 +1,30 @@
+[project]
+name = "price-comparator"
+version = "0.1.0"
+description = "CLI tool for comparing prices across Target and Giant"
+authors = [{ name = "Auto Dev", email = "dev@example.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = [
+    "httpx",
+    "beautifulsoup4",
+    "pydantic>=2",
+    "typer[all]",
+    "rich",
+    "python-dotenv",
+    "PyYAML",
+]
+
+[project.scripts]
+price-compare = "price_comparator.cli:app"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
