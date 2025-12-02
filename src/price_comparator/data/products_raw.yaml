@@ -1,0 +1,8 @@
+defaults:
+  target_store_id: "1234"
+  target_zip: "12345"
+  giant_store_id: "GIANT-001"
+products:
+  - name: "Whole Milk 1 gal"
+  - name: "Large Eggs 12ct"
+  - name: "Boneless skinless chicken breast 1 lb"
